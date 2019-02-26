@@ -1,0 +1,9 @@
+﻿; MFCdll.def: объявляет параметры модуля для библиотеки DLL.
+
+LIBRARY MFCdll.dll
+DESCRIPTION "Component description"
+
+EXPORTS
+    ; Сюда можно направлять явные операции экспорта
+	CreateInstance @1 PRIVATE
+	Sum @2 PRIVATE

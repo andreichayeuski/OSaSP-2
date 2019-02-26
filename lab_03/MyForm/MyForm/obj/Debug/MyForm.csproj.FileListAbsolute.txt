@@ -1,0 +1,29 @@
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\bin\Debug\MyForm.exe.config
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\bin\Debug\MyForm.exe
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\bin\Debug\MyForm.pdb
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\bin\Debug\Interop.ActiveXCPP2Lib.dll
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\bin\Debug\AxInterop.ActiveXCPP2Lib.dll
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\obj\Debug\Interop.ActiveXCPP2Lib.dll
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\obj\Debug\AxInterop.ActiveXCPP2Lib.dll
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.csproj.ResolveComReference.cache
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.Form1.resources
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.Properties.Resources.resources
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.csproj.GenerateResource.cache
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.exe
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.pdb
+E:\Учёба\OC(2сем)\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.csprojResolveAssemblyReference.cache
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\bin\Debug\MyForm.exe.config
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\bin\Debug\MyForm.exe
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\bin\Debug\MyForm.pdb
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\bin\Debug\Interop.ActiveXCPP2Lib.dll
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\bin\Debug\AxInterop.ActiveXCPP2Lib.dll
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.csprojAssemblyReference.cache
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\obj\Debug\Interop.ActiveXCPP2Lib.dll
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\obj\Debug\AxInterop.ActiveXCPP2Lib.dll
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.csproj.ResolveComReference.cache
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.Form1.resources
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.Properties.Resources.resources
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.csproj.GenerateResource.cache
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.csproj.CoreCompileInputs.cache
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.exe
+D:\Документы\Университет\6 семестр\ОС\MyActiveX1\MyForm\MyForm\obj\Debug\MyForm.pdb
