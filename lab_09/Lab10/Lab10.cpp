@@ -161,7 +161,7 @@ int main(int argc, char* argv[])
 
 	}
 
-	IDispatch *pDoc1;
+	/*IDispatch *pDoc1;
 	{
 		VARIANT result;
 		VariantInit(&result);
@@ -173,7 +173,477 @@ int main(int argc, char* argv[])
 			TEXT("Click Me"),
 			TEXT("word doc"), 0x10000);
 
+	}*/
+	IDispatch* pDocRas;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pWordApp, L"Selection",
+			0);
+		pDocRas = result.pdispVal;
 	}
+	/////
+	IDispatch* pDocRas1;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas, L"MoveRight", 2, x, y);
+		pDocRas1 = result.pdispVal;
+	}
+	IDispatch* pDocRas41;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas, L"MoveRight", 3, x, y, z);
+		pDocRas41 = result.pdispVal;
+	}
+	/////
+	IDispatch* pDocRas51;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pDocRas, L"Font",
+			0);
+
+		pDocRas51 = result.pdispVal;
+	}
+	IDispatch* pDocRas62;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x, y, z;
+		x.vt = VT_I4;
+		x.lVal = 255;
+		y.vt = VT_I4;
+		y.lVal = 255;
+		z.vt = VT_I4;
+		z.lVal = 255;
+		AutoWrap(DISPATCH_PROPERTYPUT, &result, pDocRas51, L"Color", 3, x, y, z);
+		pDocRas62 = result.pdispVal;
+	}
+
+	IDispatch* pDocRas401;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas, L"MoveRight", 2, x, y);
+		pDocRas401 = result.pdispVal;
+	}
+
+	IDispatch* pDocRas2;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pWordApp, L"Selection",
+			0);
+		pDocRas2 = result.pdispVal;
+	}
+	IDispatch* pDocRas411;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas2, L"MoveRight", 3, x, y, z);
+		pDocRas411 = result.pdispVal;
+	}
+	/////
+	IDispatch* pDocRas511;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pDocRas2, L"Font",
+			0);
+
+		pDocRas511 = result.pdispVal;
+	}
+	IDispatch* pDocRas621;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x, y, z;
+		x.vt = VT_I4;
+		x.lVal = 26367;
+		y.vt = VT_I4;
+		y.lVal = 255;
+		z.vt = VT_I4;
+		z.lVal = 0;
+		AutoWrap(DISPATCH_PROPERTYPUT, &result, pDocRas511, L"Color", 3, x, y, z);
+		pDocRas621 = result.pdispVal;
+	}
+
+	IDispatch* pDocRas4011;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas2, L"MoveRight", 2, x, y);
+		pDocRas4011 = result.pdispVal;
+	}
+
+	IDispatch* pDocRas21;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pWordApp, L"Selection",
+			0);
+		pDocRas21 = result.pdispVal;
+	}
+	IDispatch* pDocRas4111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas21, L"MoveRight", 3, x, y, z);
+		pDocRas4111 = result.pdispVal;
+	}
+	/////
+	IDispatch* pDocRas5111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pDocRas21, L"Font",
+			0);
+
+		pDocRas5111 = result.pdispVal;
+	}
+	IDispatch* pDocRas6211;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x, y, z;
+		x.vt = VT_I4;
+		x.lVal = 65535;
+		y.vt = VT_I4;
+		y.lVal = 255;
+		z.vt = VT_I4;
+		z.lVal = 0;
+		AutoWrap(DISPATCH_PROPERTYPUT, &result, pDocRas5111, L"Color", 3, x, y, z);
+		pDocRas6211 = result.pdispVal;
+	}
+
+	IDispatch* pDocRas40111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas21, L"MoveRight", 2, x, y);
+		pDocRas40111 = result.pdispVal;
+	}
+
+	IDispatch* pDocRas211;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pWordApp, L"Selection",
+			0);
+		pDocRas211 = result.pdispVal;
+	}
+	IDispatch* pDocRas41111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas211, L"MoveRight", 3, x, y, z);
+		pDocRas41111 = result.pdispVal;
+	}
+	/////
+	IDispatch* pDocRas51111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pDocRas211, L"Font",
+			0);
+
+		pDocRas51111 = result.pdispVal;
+	}
+	IDispatch* pDocRas62111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x, y, z;
+		x.vt = VT_I4;
+		x.lVal = 32768;
+		y.vt = VT_I4;
+		y.lVal = 255;
+		z.vt = VT_I4;
+		z.lVal = 0;
+		AutoWrap(DISPATCH_PROPERTYPUT, &result, pDocRas51111, L"Color", 3, x, y, z);
+		pDocRas62111 = result.pdispVal;
+	}
+
+	IDispatch* pDocRas401111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas211, L"MoveRight", 2, x, y);
+		pDocRas401111 = result.pdispVal;
+	}
+
+	IDispatch* pDocRas2111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pWordApp, L"Selection",
+			0);
+		pDocRas2111 = result.pdispVal;
+	}
+	IDispatch* pDocRas411111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas2111, L"MoveRight", 3, x, y, z);
+		pDocRas411111 = result.pdispVal;
+	}
+	/////
+	IDispatch* pDocRas511111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pDocRas2111, L"Font",
+			0);
+
+		pDocRas511111 = result.pdispVal;
+	}
+	IDispatch* pDocRas621111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x, y, z;
+		x.vt = VT_I4;
+		x.lVal = 16763904;
+		y.vt = VT_I4;
+		y.lVal = 255;
+		z.vt = VT_I4;
+		z.lVal = 0;
+		AutoWrap(DISPATCH_PROPERTYPUT, &result, pDocRas511111, L"Color", 3, x, y, z);
+		pDocRas621111 = result.pdispVal;
+	}
+
+
+	IDispatch* pDocRas4011111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas2111, L"MoveRight", 2, x, y);
+		pDocRas4011111 = result.pdispVal;
+	}
+
+	IDispatch* pDocRas21111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pWordApp, L"Selection",
+			0);
+		pDocRas21111 = result.pdispVal;
+	}
+	IDispatch* pDocRas4111111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas21111, L"MoveRight", 3, x, y, z);
+		pDocRas4111111 = result.pdispVal;
+	}
+	/////
+	IDispatch* pDocRas5111111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pDocRas21111, L"Font",
+			0);
+
+		pDocRas5111111 = result.pdispVal;
+	}
+	IDispatch* pDocRas6211111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x, y, z;
+		x.vt = VT_I4;
+		x.lVal = 16711680;
+		y.vt = VT_I4;
+		y.lVal = 255;
+		z.vt = VT_I4;
+		z.lVal = 0;
+		AutoWrap(DISPATCH_PROPERTYPUT, &result, pDocRas5111111, L"Color", 3, x, y, z);
+		pDocRas6211111 = result.pdispVal;
+	}
+
+
+	IDispatch* pDocRas40111111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas21111, L"MoveRight", 2, x, y);
+		pDocRas40111111 = result.pdispVal;
+	}
+
+	IDispatch* pDocRas211111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pWordApp, L"Selection",
+			0);
+		pDocRas211111 = result.pdispVal;
+	}
+	IDispatch* pDocRas41111111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x;
+		x.vt = VT_I4;
+		x.lVal = 1;
+		VARIANT y;
+		y.vt = VT_I4;
+		y.lVal = 1;
+		VARIANT z;
+		z.vt = VT_BOOL;
+		z.lVal = true;
+		AutoWrap(DISPATCH_METHOD, &result, pDocRas211111, L"MoveRight", 3, x, y, z);
+		pDocRas41111111 = result.pdispVal;
+	}
+	/////
+	IDispatch* pDocRas51111111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		AutoWrap(DISPATCH_PROPERTYGET, &result, pDocRas211111, L"Font",
+			0);
+
+		pDocRas51111111 = result.pdispVal;
+	}
+	IDispatch* pDocRas62111111;
+	{
+		VARIANT result;
+		VariantInit(&result);
+		VARIANT x, y, z;
+		x.vt = VT_I4;
+		x.lVal = 8388736;
+		y.vt = VT_I4;
+		y.lVal = 255;
+		z.vt = VT_I4;
+		z.lVal = 0;
+		AutoWrap(DISPATCH_PROPERTYPUT, &result, pDocRas51111111, L"Color", 3, x, y, z);
+		pDocRas62111111 = result.pdispVal;
+	}
+
+
+
+
+
+
+
+
+	//-----------------------------------------------------------------------------------------------------------------------------------------------
+
 
 	//IDispatch *pDoc2;
 	//{
@@ -204,7 +674,7 @@ int main(int argc, char* argv[])
 	//				//FindClose(hFind);
 	//}
 
-
+	/*
 	IDispatch *pDoc4;
 	{
 		VARIANT result;
