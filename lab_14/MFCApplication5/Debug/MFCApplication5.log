@@ -1,0 +1,9 @@
+﻿  MFCApplication5View.cpp
+D:\Документы\Университет\6 семестр\ОС\lab_14\MFCApplication5\MFCApplication5View.cpp(178): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Документы\Университет\6 семестр\ОС\lab_14\MFCApplication5\MFCApplication5View.cpp(180): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Документы\Университет\6 семестр\ОС\lab_14\MFCApplication5\MFCApplication5View.cpp(186): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Документы\Университет\6 семестр\ОС\lab_14\MFCApplication5\MFCApplication5View.cpp(188): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+D:\Документы\Университет\6 семестр\ОС\lab_14\MFCApplication5\MFCApplication5View.cpp(203): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Документы\Университет\6 семестр\ОС\lab_14\MFCApplication5\MFCApplication5View.cpp(204): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Документы\Университет\6 семестр\ОС\lab_14\MFCApplication5\MFCApplication5View.cpp(72): warning C4101: xcoord: неиспользованная локальная переменная
+  MFCApplication5.vcxproj -> D:\Документы\Университет\6 семестр\ОС\lab_14\Debug\MFCApplication5.exe
